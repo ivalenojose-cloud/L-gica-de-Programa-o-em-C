@@ -9,7 +9,7 @@ char nome[20] = "Sergio"; // Declara um array de 20 caracteres e inicializa com 
 
 
 printf("A idade do %s é: %d\n", nome, idade);
-printf("A altura é: %f", altura);
+printf("A altura é: %.2f\n", altura);
 printf("A opção é: %c\n", opcao);
 
 /*
