@@ -20,7 +20,7 @@ fgets(nome, sizeof(nome), stdin);
 printf("Digite sua matricula: \n");
 scanf("%d", &matricula);
 
-printf("Nome do aluno: %s\n - Matricula: %d\n - Idade: %d\n - Altura: %f", nome, matricula, idade, altura);
+printf("Nome do aluno: %s - Matricula: %d\n - Idade: %d\n - Altura: %.2f\n", nome, matricula, idade, altura);
 
 return 0;
 
