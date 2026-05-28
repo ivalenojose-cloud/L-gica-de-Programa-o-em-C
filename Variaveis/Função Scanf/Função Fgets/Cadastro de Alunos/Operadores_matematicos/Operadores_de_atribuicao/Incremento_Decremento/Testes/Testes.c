@@ -2,20 +2,26 @@
 
 int main() {
 
-float numero1, numero2;
+int numero1, numero2;
+int soma, subtracao, multiplicacao;
 float divisao;
 
 printf("Digite o numero 1: ");
-scanf("%f", &numero1);
+scanf("%d", &numero1);
 
 printf("Digite o numero 2: ");
-scanf("%f", &numero2);
+scanf("%d", &numero2);
 
-divisao = numero1 / numero2;
+soma = numero1 + numero2;
+subtracao = numero1 - numero2;
+multiplicacao = numero1 * numero2;
+divisao = numero1 / (float) numero2;
 
-printf("O resultado da divisão é: %f\n", divisao);
+printf("A soma é: %d\n", soma);
+printf("A subtração é: %d\n", subtracao);
+printf("A multiplicação é: %d\n", multiplicacao);
+printf("A divisao é: %.2f\n", divisao);
 
 return 0;
-
 
 }
