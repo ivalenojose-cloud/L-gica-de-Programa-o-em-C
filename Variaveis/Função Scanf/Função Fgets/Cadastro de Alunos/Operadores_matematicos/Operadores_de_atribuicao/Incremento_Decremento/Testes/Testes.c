@@ -2,25 +2,21 @@
 
 int main() {
 
-int numero1, numero2;
-int soma, subtracao, multiplicacao;
-float divisao;
+//Variaveis
+float base, altura, area;
 
-printf("Digite o numero 1: ");
-scanf("%d", &numero1);
+//Entrada de dados
+printf("Digite a base: ");
+scanf("%f", &base);
 
-printf("Digite o numero 2: ");
-scanf("%d", &numero2);
+printf("Digite a altura: ");
+scanf("%f", &altura);
 
-soma = numero1 + numero2;
-subtracao = numero1 - numero2;
-multiplicacao = numero1 * numero2;
-divisao = numero1 / (float) numero2;
+//Processamento
+area = base * altura;
 
-printf("A soma é: %d\n", soma);
-printf("A subtração é: %d\n", subtracao);
-printf("A multiplicação é: %d\n", multiplicacao);
-printf("A divisao é: %.2f\n", divisao);
+//Saida de dados
+printf("A area do retangulo é: %.2f\n", area);
 
 return 0;
 
