@@ -1,11 +1,15 @@
 #include <stdio.h>
  
 int main() {
-    int a = 10;
-    int b = 3;
-    float quociente =  a /(float) b; // 'a' é explicitamente convertido para float
- 
-    printf("Quociente: %.2f\n", quociente);
- 
-    return 0;
+
+float nota;
+
+    printf("Digite sua nota: ");
+    scanf("%f", &nota);
+
+    printf("Parabéns voce esta aprovado!: %f\n", nota >= 6.0);
+    printf("Infelizmente voce esta reprovado!: %f\n", nota <= 5.0 );
+
+return 0;
+
 }
